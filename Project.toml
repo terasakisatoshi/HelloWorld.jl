@@ -1,0 +1,13 @@
+name = "HelloWorld"
+uuid = "419ca36e-7ed8-11e9-0aca-9f3ea9fd9336"
+authors = ["SatoshiTerasaki <terasakisatoshi.math@gmail.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
